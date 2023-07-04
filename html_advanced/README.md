@@ -1,3 +1,1 @@
-![README contents][def]
-
-[def]: file.fig
+![README](file.fig)
