@@ -1,1 +1,1 @@
-Advanced HTML
+![README contents](file.fig)
