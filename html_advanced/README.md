@@ -1,1 +1,1 @@
-![README](file.fig)
+![](file.fig)
