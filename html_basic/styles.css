@@ -38,6 +38,9 @@ time, mark, audio, video {
     viewport-fit: auto;
 }
 
+header .logo{
+    font-weight: bold;
+}
 main{
     flex-direction: row;
     flex: auto;
