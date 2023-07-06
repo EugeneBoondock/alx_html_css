@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-right: 100px;
+    border-left: 80px;
+    padding: 5%;
+    border-radius: 50px;
+    height: 700px;
+    display: inline-block;
+    justify-items: center;
+    margin-left: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-color: blueviolet;
+    margin-top: 5%;
+}
+
+header h2{
+    font-style: italic;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}    
+
+header p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section .first{
+    color: brown;
+}
+
+section .first h4{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button{
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    width: min-content;
+    background-color: green;
+}
+
+.second{
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
