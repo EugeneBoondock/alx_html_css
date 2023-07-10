@@ -452,7 +452,7 @@
     /* Section Works
       ============================= */
 
-    #works .section-works{
+    #works.section-works{
 
     }
   
@@ -480,7 +480,7 @@
 
     /* Section SERVICES
       ============================= */
-  #services .section-services{
+  #services.section-services{
 
   }
   
@@ -519,26 +519,26 @@
 
   /* Section Testimonial*/
 
-  #testimonial .section-testimonial{
+  #testimonial.section-testimonial{
 
   }
 
     /* Section About Us
       ============================= */
 
-#about .section-about-us{
+#about.section-about-us{
 
 }
 
   /* Section Latest News
       ============================= */
-#latest_news .section-lastest-news{
+#latest_news.section-lastest-news{
 
 }
 
   /* Section Contact
       ============================= */
-#contact .section-contact{
+#contact.section-contact{
 
 }
 
