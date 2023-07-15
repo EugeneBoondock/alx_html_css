@@ -22,3 +22,71 @@
     font-family: "Source Sans Pro4";
     src: url("./fonts/SourceSansPro-Light.otf") format("truetype");
 }
+
+.content {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    background-image: url("./images/Object.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: start;
+    height: 140vh;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    flex-grow: 0.5;
+}
+
+header a {
+    border: 20px solid transparent;
+    flex-shrink: 2;
+}
+
+header .logo {
+    padding: 40px;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.content h1 {
+    font-size: 200px;
+}
+
+.content div {
+    font-size: 20px;
+    margin-top: -150px;
+    
+}
+
+.content button {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #C271FF;
+    color: white;
+    margin-top: 40px;
+    
+}
