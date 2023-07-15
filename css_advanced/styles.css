@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Spincycle";
+    src: url("./fonts/spincycle_ot.otf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro2";
+    src: url("./fonts/SourceSansPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro3";
+    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro4";
+    src: url("./fonts/SourceSansPro-Light.otf") format("truetype");
+}
