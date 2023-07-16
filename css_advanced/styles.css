@@ -191,11 +191,14 @@ main .section1 blockquote {
     height: max-content;
     display: flex;
     flex-direction: column;
+    font-family: "Source Sans Pro";
 }
 
 .section2 .videos {
     display: flex;
     justify-content: center;
+    margin-right: 130px;
+    margin-left: 340px;
 }
 
 .section2 h2 {
@@ -210,15 +213,15 @@ main .section1 blockquote {
 
 .videos .vid2 {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
 }
 
 .videos .vid3 {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
 }
 
 .videos .vid4 {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
 }
