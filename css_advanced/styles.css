@@ -45,6 +45,7 @@ body {
     height: 100%;
 }
 
+/*Header Section*/
 header {
     background-image: url("./images/Object.png");
     background-size: cover;
@@ -154,5 +155,70 @@ header .content {
 }
 
 .staff .txt4 {
+    text-align: center;
+}
+
+/*Main Section*/
+
+main .section1 {
+    background-color: #C271FF;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .section1 div {
+    padding: 150px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+main .section1 blockquote {
+    margin-top: -150px;
+    margin-left: 200px;
+    color: white;
+    font-family: "Source Sans Pro5";
+    font-size: 20px;
+}
+
+.section2 h2 .purr {
+    color: #C271FF;
+}
+
+.section2 {
+    padding: 50px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .videos {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.videos .vid1 {
+    flex-direction: column;
+    text-align: justify;
+}
+
+.videos .vid2 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.videos .vid3 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.videos .vid4 {
+    flex-direction: column;
     text-align: center;
 }
