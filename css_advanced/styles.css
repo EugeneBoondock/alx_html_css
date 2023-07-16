@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "Source Sans Pro3";
-    src: url("./fonts/SourceSansPro-Semibold.otf") format("truetype");
+    src: url("./fonts/SourceSansPro-Bold.otf") format("truetype");
 }
 
 @font-face {
@@ -23,8 +23,21 @@
     src: url("./fonts/SourceSansPro-Light.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "Source Sans Pro5";
+    src: url("./fonts/SourceSansPro-ExtraLight.otf") format("truetype");
+}
+
+.nav {
+    font-family: "Source Sans Pro";
+}
+
 .content {
     font-family: "Source Sans Pro", sans-serif;
+}
+
+.content2 {
+    font-family: "Source Sans Pro5", sans-serif;
 }
 
 body {
@@ -56,6 +69,12 @@ header .logo {
 header a {
     border: 20px solid transparent;
     flex-shrink: 2;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #C271FF;
 }
 
 header .logo {
@@ -95,6 +114,7 @@ header .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
 }
 
 .content2 h1 {
@@ -103,10 +123,36 @@ header .content {
     margin-top: 350px;
 }
 
+.content2 h1 .col {
+    color: #C271FF;
+    font-size: 34px;
+    font-family: "Source Sans Pro3";
+}
+
 .content2 .staff {
     display: flex;
     flex-direction: row;
     gap: 300px;
     justify-content: center;
     margin-top: 180px;
+}
+
+.third {
+    border-radius: 100px;
+}
+
+.staff .txt {
+    text-align: center;
+}
+
+.staff .txt2 {
+    text-align: center;
+}
+
+.staff .txt3 {
+    text-align: center;
+}
+
+.staff .txt4 {
+    text-align: center;
 }
