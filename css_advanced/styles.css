@@ -40,6 +40,10 @@
     font-family: "Source Sans Pro5", sans-serif;
 }
 
+.section3 {
+    font-family: "Source Sans Pro";
+}
+
 body {
     margin: 0;
     height: 100%;
@@ -182,7 +186,7 @@ main .section1 blockquote {
     font-size: 20px;
 }
 
-.section2 h2 .purr {
+.purr {
     color: #C271FF;
 }
 
@@ -192,6 +196,7 @@ main .section1 blockquote {
     display: flex;
     flex-direction: column;
     font-family: "Source Sans Pro";
+    margin-bottom: 100px;
 }
 
 .section2 .videos {
@@ -204,6 +209,7 @@ main .section1 blockquote {
 .section2 h2 {
     display: flex;
     justify-content: center;
+    font-size: 40px;
 }
 
 .videos .vid1 {
@@ -224,4 +230,99 @@ main .section1 blockquote {
 .videos .vid4 {
     flex-direction: column;
     text-align: justify;
+}
+
+.author1 cite {
+    color: #C271FF;
+}
+
+.author2 cite {
+    color: #C271FF;
+}
+
+.author3 cite {
+    color: #C271FF;
+}
+
+.author4 cite {
+    color: #C271FF;
+
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+    gap: 10px;
+}
+
+.wrap1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+    gap: 10px;
+}
+
+.wrap2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+    gap: 10px;
+}
+
+.wrap3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+    gap: 10px;
+}
+
+.rate3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -40px;
+    gap: 90px;
+    margin-top: 10px;
+}
+
+.rate3 span {
+    color: #C271FF;
+}
+
+.section3 {
+    background-color: #071629;
+    height: max-content;
+    color: white;
+    padding: 50px;
+}
+
+.section3 h2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.mem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.but button {
+    padding: 20px;
+    color: white;
+    background-color: #C271FF;
+    border-radius: 50px;
 }
