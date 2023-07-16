@@ -28,6 +28,11 @@
     src: url("./fonts/SourceSansPro-ExtraLight.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "Source Sans Pro6";
+    src: url("./fonts/SourceSansPro-Semibold.otf");
+}
+
 .nav {
     font-family: "Source Sans Pro";
 }
@@ -42,6 +47,10 @@
 
 .section3 {
     font-family: "Source Sans Pro";
+}
+
+.section4 {
+    font-family: "Source Sans Pro6";
 }
 
 body {
@@ -325,4 +334,66 @@ main .section1 blockquote {
     color: white;
     background-color: #C271FF;
     border-radius: 50px;
+}
+
+.rowblock {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.rowblock h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.stuff {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    text-align: justify;
+}
+
+.stuff2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    text-align: justify;
+}
+
+.footer1 {
+    background-color: #071629;
+}
+
+.item1 {
+    text-align: justify;
+}
+
+.item1 h2, .item1 p {
+display: inline;
+}
+
+
+.item2 {
+text-align: justify;
+}
+
+.item2 h2, .item2 p {
+display: inline;
+}
+
+.item3 {
+text-align: justify;
+}
+
+.item3 h2, .item3 p {
+display: inline;
+}
+
+.item4 {
+text-align: justify;
+}
+
+.item4 h2, .item4 p {
+display: inline;
 }
