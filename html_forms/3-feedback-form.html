@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <!-- Include any additional stylesheets or scripts here -->
+    <title>Checkbox</title>
 </head>
 <body>
     <form>
         <ul>
             <li> 
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name:" />
+                <input type="text" name="name" id="name" placeholder="Enter your name:" required />
             </li>
             <li> 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email:"/>
+                <input type="email" name="email" id="email" placeholder="Enter your email:" required />
             </li>
         </ul>
 
@@ -28,12 +27,12 @@
             </li>
             <li> 
                 <label>
-                    <input type="checkbox" name="feedback" value="good" /> Good
+                    <input type="checkbox" name="feedback" value="good"/> Good
                 </label>
             </li>
             <li> 
                 <label>
-                    <input type="checkbox" name="feedback" value="average" /> Average 
+                    <input type="checkbox" name="feedback" value="average"/> Average 
                 </label>
             </li>
             <li> 
@@ -43,7 +42,7 @@
             </li>
             <li>
               <label for="file upload">
-                  <input type="file" name="file" id="file"/>
+                  <input type="file" name="file" id="file" required />
               </label>
             </li>
         </ul>
